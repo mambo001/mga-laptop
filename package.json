@@ -2,7 +2,11 @@
   "name": "@mga-laptop/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx serve web",
+    "build": "nx build web",
+    "deploy:gh-pages": "git subtree push --prefix dist/apps/web origin gh-pages"
+  },
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.14.5",
