@@ -43,3 +43,5 @@ Thumbs.db
 
 config/*
 .env
+
+!dist/apps/web/
